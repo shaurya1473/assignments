@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#03071e ;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  h1{
+    color: rgb(243, 247, 250);
+    font-size: 5rem;
+  }
+  
+  nav{
+    width: 100vw;
+    height: 120px;
+  }
+  
+  ul{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  
+  li{
+    list-style-type: none;
+    color:#a9d6e5;
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .brand:hover{
+    color:white;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:650px){
+    
+    ul{
+      flex-direction: column;
+      align-items: center;
+    }
+    nav{
+      height: 450px;
+    }
+  }
+  
+  #slideshow{
+    width: 60vw;
+    height: 700px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+  
+  .slide{
+    float:left
+  }
+  
+  .slide img{
+  
+    height: 600px;
+    width: 60vw;
+  }
+  
+  .wrapper{
+    width: calc(70vw*6);
+    animation:  15s ease infinite slider;
+  }
+  
+  @keyframes slider {
+  
+    16% {
+      margin-left: 0px;
+    }
+    
+    32% {
+      margin-left: calc(-60vw * 1);
+    }
+    
+    48% {
+      margin-left: calc(-60vw * 2);
+    }
+    
+    64% {
+      margin-left: calc(-60vw* 3);
+    }
+  
+    80%{
+      margin-left:calc(-60vw*4);
+    }
+  
+    96%{
+      margin-left:calc(-60vw*5);
+    }
+  }
+  
+  
+  #items{
+    width: 70vw;
+    height: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  figure{
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid white;
+    font-size: 2rem;
+    color: #ccc;
+    box-shadow: 2px 2px 3px rgb(104,104,104);
+    transition: .2s ease-in;
+  }
+  
+  figure:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  figure img{
+    width: 100%;
+  }
+  
+  figure button{
+    font-size: 1.5rem;
+    width: 90px;
+    height: 40px;
+    border-radius: 2px;
+    transition: 1s ease;
+    color:whitesmoke;
+  }
+  
+  figure button:hover{
+      background-color:#ced4da;
+    cursor: pointer;
+  }
+  
+  footer{
+    height: 900px;
+  }
