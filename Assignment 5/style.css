@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* main div */
+
+.main {
+    max-width: 65%;
+    margin: 20px auto;
+
+}
+
+/* first div */
+
+.one {
+    background-color: white;
+    padding-left: 10px;
+    
+}
+
+.headings {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.heading {
+    margin-right: 50px;
+    margin-left: auto;
+    font-size: 30px;
+}
+
+/* second div */
+.two {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#special {
+    font-size: 20px;
+}
+
+img {
+    height: 250px;
+    width: 150px;
+
+}
+
+
+.idiv {
+    text-align: center;
+    padding: 60px 80px;
+    margin-left: 120px;
+}
+
+
+/* third div */
+
+
+.three {
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+}
+
+/* forth div */
+.four {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.projects {
+    list-style-type: none;
+    border: 3px groove black;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+
+/* fifth div */
+
+.five {
+    background-color: white;
+    padding: 30px;
+}
+
+.languages {
+    list-style-type: none;
+    border: 3px solid black;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+/* Extra */
+.all:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+@media screen and (max-width:600px) {
+    .idiv {
+        margin-left: 50px;
+    }
+
+}
