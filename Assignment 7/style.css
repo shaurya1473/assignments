@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Rampart One', cursive;
+    background-image: url("https://images.unsplash.com/photo-1587279535322-b20697908487?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3VubnklMjBza3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Main Heading */
+
+.heading-title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+/* Container */
+
+.container {
+    margin-top: 1%;
+}
+
+
+/* Card */
+
+.card {
+    margin: 0 auto 63px;
+    height: 80vh;
+    background-color: white;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 25px;
+}
+
+
+/* Input Box */
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+
+/* Enter Button */
+
+.input-box button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    background: #c0c0c0;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+/* Card Image */
+
+.cardImage {
+    height: 57vh;
+    background-image: url("https://i.pinimg.com/originals/d9/f2/aa/d9f2aa17a6f2e037a61933fdf7ee7576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+
+/* Weather Details */
+
+.img-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Current Date */
+
+.cardImage .img-des .dates {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 2%;
+    color: black;
+    text-shadow: 0px 0px;
+}
+
+
+/* Weather Details */
+
+.cardImage .cityName {
+    font-size: 2rem;
+    margin-top: 8%;
+}
+
+.cardImage .temp {
+    font-family:'Rampart One', cursive;
+    font-size: 4rem;
+}
+
+
+/* Celsius */
+
+.celsius {
+    font-size: 3.5rem;
+}
+
+
+/* Weather Type and its Details  */
+
+.cardImage .weatherType {
+    font-size: 2rem;
+}
+
+.weather-details {
+    margin-top: 3%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px black;
+    color:white;
+}
+
+.more-weather-details {
+    margin-top: 3%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px black;
+    color: white
+}
